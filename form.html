@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <div class="mb-3">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" class="form-input">
+            </div>
+            <div  class="mb-3">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" class="form-input">
+            </div>
+            <div class="mb-3">
+                <label for="age">Age(optional)</label><br>
+                <input type="number" id="age" class="form-input">
+            </div>
+            <div class="mb-3">
+                <label for="role">Which option best describes your current role?</label><br>
+                <select name="" id="role" class="form-input">
+                    <option value="Select current role">Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full time job">Full time job</option>
+                    <option value="Full time learner">Full time learner</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label>Would you recommend freeCodeCamp to a friend?</label><br>
+                <input type="radio" id="definitely" name="recommend"><label for="definitely">Definitely</label>
+                <input type="radio" id="maybe" name="recommend"><label for="maybe">May be</label>
+                <input type="radio" id="notsure" name="recommend"><label for="notsure">Not sure</label>
+            </div>
+            <div class="mb-3">
+                <label>What would you like to see improved?
+                    (Check all that apply)</label><br>
+                <input type="checkbox" id="Front-end-Projects"><label for="Front-end-Projects">Front-end
+                    Projects</label>
+            </div>
+            <div class="mb-3">
+                <label for="comment">Any comments or suggestions?</label><br>
+                <textarea name="" id="comment" style="width: 100%;" rows="10"></textarea>
+            </div>
+            <div class="mb-3">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
